@@ -1,0 +1,11 @@
+# Define a opção padrão do Cucumber para a execução do teste
+default: -p json -p pretty
+
+# Define a formatação do relatório em JSON e especifica o local de armazenamento do arquivo de relatório
+json: --format json --out=log/report.json
+
+# Define a formatação do relatório em texto simples e colorido
+pretty: --format pretty
+
+# Define a formatação do relatório em formato de progresso (pontos) exibidos no console
+progress: --format progress
